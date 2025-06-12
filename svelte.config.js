@@ -7,7 +7,7 @@ export default {
       base: '/sveltekit_static', // 🔁 Replace with your GitHub repo name
     },
     prerender: {
-      default: true
+      entries: ['*']
     }
   }
 };
